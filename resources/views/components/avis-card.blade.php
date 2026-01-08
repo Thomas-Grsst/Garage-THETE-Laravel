@@ -18,7 +18,7 @@
         </h3>
 
         <p class="text-gray-700 text-sm leading-relaxed mt-1">
-            {{ $description }}
+            {!! nl2br(e($description)) !!}
         </p>
     </div>
 </div>
